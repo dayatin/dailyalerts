@@ -1,0 +1,41 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment and secrets
+.env
+*.env
+*.secret
+secrets.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# Charts and outputs
+*.png
+*.pdf
+
+# GitHub Actions
+*.coverage
+coverage.xml
+htmlcov/
